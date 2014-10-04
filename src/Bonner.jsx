@@ -4,7 +4,6 @@
 
 var React = require('react');
 
-var bonnerImage = require('../assets/bonner.jpg');
 var bonnerCss = require('../src/bonner.css');
 
 var Bonner = React.createClass({
@@ -16,7 +15,7 @@ var Bonner = React.createClass({
     return (
       <main>
         <span className="tema">{this.props.tema}</span>
-        <img src={'../dist/' + bonnerImage}></img>
+        <img src='./assets/bonner.jpg'></img>
       </main>
     );
   }
