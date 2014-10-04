@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  position: relative;
+}
+
+.tema{   
+  position: absolute;
+  color: #FFF;
+  width: 540px;
+  transform: rotate(15deg);
+  top: 197px;
+  left: 98px;
+  font-size: 41px;
+  text-align: center;
+}
